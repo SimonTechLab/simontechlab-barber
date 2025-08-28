@@ -80,28 +80,14 @@
 }
 
 /* Individual colors for testing visuals */
-#p1.parallax {
-  background-image: url('assets/img/amiro2.png')
-}
 
-#p2.parallax {
+#p1.parallax {
   background-image: url('assets/img/amiro3.png')
 }
 
-#p3.parallax {
-  background-image: url('assets/img/blueCloud.jpg')
+#p2.parallax {
+  background-image: url('assets/img/amiro1.png')
 }
-
-#p4.parallax4 {
-  background-image: url('assets/img/eveningCloud.jpg');
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
 
 /* =============================
             SECTIONS           /
@@ -196,13 +182,9 @@ body, p, .subtext {
   gap: 2rem;
   justify-content: center;
 }
-.barber-img {
-  width: 50px;
-  height: 50px; /* or a fixed height if you want */
-  overflow: hidden;
-}
-.barber-img img {
-  width: 100%;
+
+.barber img {
+  width: 448px;
   height: auto;
   display: block; /* removes inline whitespace */
 }
