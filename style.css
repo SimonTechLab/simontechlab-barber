@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto&display=swap');
 
 :root {
-  --font-title: 'Michroma', sans-serif;
-  --font-body: 'Space Mono', monospace;
+  --font-title:  'Comic Sans MS', cursive;
+  --font-body: 'Comic Sans MS', cursive;
 }
 
 /* =============================
@@ -81,11 +81,11 @@
 
 /* Individual colors for testing visuals */
 #p1.parallax {
-  background-image: url('assets/img/amiro1.png')
+  background-image: url('assets/img/amiro2.png')
 }
 
 #p2.parallax {
-  background-image: url('assets/img/amiro1.png')
+  background-image: url('assets/img/amiro3.png')
 }
 
 #p3.parallax {
@@ -180,4 +180,10 @@ h1, h2, h3 {
 }
 body, p, .subtext {
   font-family: var(--font-body);
+}
+
+#s2.section{
+  height: 100vh;
+  flex-direction: column;
+
 }
