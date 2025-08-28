@@ -109,7 +109,7 @@
 .section {
   height: 300px;
   padding: 2rem;
-  background-color: #E9DFD3;
+  background-color: var(--color-night);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -152,7 +152,7 @@
   margin-top: 1.5rem;
   padding: 1rem 2rem;
   background-color: var(--color-bark);
-  color: #000;
+  color: var(--color-alabaster);
   font-size: 1rem;
   border-radius: 0;
   font-weight: bold;
@@ -175,10 +175,12 @@
 
 h1, h2, h3 {
   font-family: var(--font-title);
+  color: var(--color-quartz);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 body, p, .subtext {
+  color: var(--color-quartz);
   font-family: var(--font-body);
 }
 
@@ -186,4 +188,25 @@ body, p, .subtext {
   height: 100vh;
   flex-direction: column;
 
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.barber-img {
+  width: 50px;
+  height: 50px; /* or a fixed height if you want */
+  overflow: hidden;
+}
+.barber-img img {
+  width: 100%;
+  height: auto;
+  display: block; /* removes inline whitespace */
+}
+
+footer{
+  background-color: var(--color-night);
 }
